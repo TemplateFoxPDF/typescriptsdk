@@ -1,6 +1,6 @@
 {
   "name": "@templatefox/sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Official TemplateFox TypeScript SDK - Generate PDFs from HTML templates",
   "author": "TemplateFox",
   "repository": {
