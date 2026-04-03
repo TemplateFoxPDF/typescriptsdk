@@ -12,6 +12,7 @@ export * from './JobListResponse';
 export * from './JobStatus';
 export * from './JobStatusResponse';
 export * from './LocationInner';
+export * from './PdfVariant';
 export * from './S3ConfigRequest';
 export * from './S3ConfigResponse';
 export * from './S3SuccessResponse';
