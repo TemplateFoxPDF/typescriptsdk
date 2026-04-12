@@ -1,6 +1,6 @@
 {
   "name": "@templatefox/sdk",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "Official TemplateFox TypeScript SDK - Generate PDFs from HTML templates",
   "author": "TemplateFox",
   "repository": {
@@ -22,7 +22,7 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
-  "homepage": "https://pdftemplateapi.com",
+  "homepage": "https://templatefox.com",
   "keywords": [
     "pdf",
     "pdf-generation",

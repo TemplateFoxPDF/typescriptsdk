@@ -1,6 +1,6 @@
 # TemplateFox TypeScript SDK
 
-Official TypeScript/Node.js SDK for [TemplateFox](https://pdftemplateapi.com) - Generate PDFs from HTML templates via API.
+Official TypeScript/Node.js SDK for [TemplateFox](https://templatefox.com) - Generate PDFs from HTML templates via API.
 
 [![npm version](https://badge.fury.io/js/%40templatefox%2Fsdk.svg)](https://www.npmjs.com/package/@templatefox/sdk)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -125,7 +125,7 @@ console.log('Connection:', test.success ? 'OK' : 'Failed');
 
 ```typescript
 const config = new Configuration({
-  basePath: 'https://api.pdftemplateapi.com', // Default API URL
+  basePath: 'https://api.templatefox.com', // Default API URL
   apiKey: 'your-api-key',
 });
 
@@ -155,13 +155,13 @@ try {
 
 ## Documentation
 
-- [API Documentation](https://pdftemplateapi.com/docs)
-- [Swagger UI](https://api.pdftemplateapi.com/docs)
-- [Dashboard](https://pdftemplateapi.com/dashboard)
+- [API Documentation](https://templatefox.com/docs)
+- [Swagger UI](https://api.templatefox.com/docs)
+- [Dashboard](https://templatefox.com/dashboard)
 
 ## Support
 
-- Email: support@pdftemplateapi.com
+- Email: support@templatefox.com
 - Issues: [GitHub Issues](https://github.com/TemplateFoxPDF/typescriptsdk/issues)
 
 ## License
