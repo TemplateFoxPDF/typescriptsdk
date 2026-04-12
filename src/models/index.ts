@@ -18,7 +18,6 @@ export * from './S3ConfigRequest';
 export * from './S3ConfigResponse';
 export * from './S3SuccessResponse';
 export * from './S3TestResponse';
-export * from './SetDefaultVersionRequest';
 export * from './TemplateField';
 export * from './TemplateFieldSpec';
 export * from './TemplateListItem';
