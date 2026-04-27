@@ -14,41 +14,41 @@
 
 import { mapValues } from '../runtime';
 /**
- * Response for URL export type
+ * 
  * @export
- * @interface CreatePdfResponse
+ * @interface PdfToolsResponse
  */
-export interface CreatePdfResponse {
+export interface PdfToolsResponse {
     /**
-     * Signed URL to download the PDF (expires after specified time)
+     * Signed URL to download the PDF
      * @type {string}
-     * @memberof CreatePdfResponse
+     * @memberof PdfToolsResponse
      */
     url: string;
     /**
-     * Filename of the generated PDF
+     * Filename of the resulting PDF
      * @type {string}
-     * @memberof CreatePdfResponse
+     * @memberof PdfToolsResponse
      */
     filename: string;
     /**
      * Remaining credits after this request
      * @type {number}
-     * @memberof CreatePdfResponse
+     * @memberof PdfToolsResponse
      */
     creditsRemaining: number;
     /**
      * Seconds until the signed URL expires
      * @type {number}
-     * @memberof CreatePdfResponse
+     * @memberof PdfToolsResponse
      */
     expiresIn: number;
 }
 
 /**
- * Check if a given object implements the CreatePdfResponse interface.
+ * Check if a given object implements the PdfToolsResponse interface.
  */
-export function instanceOfCreatePdfResponse(value: object): value is CreatePdfResponse {
+export function instanceOfPdfToolsResponse(value: object): value is PdfToolsResponse {
     if (!('url' in value) || value['url'] === undefined) return false;
     if (!('filename' in value) || value['filename'] === undefined) return false;
     if (!('creditsRemaining' in value) || value['creditsRemaining'] === undefined) return false;
@@ -56,11 +56,11 @@ export function instanceOfCreatePdfResponse(value: object): value is CreatePdfRe
     return true;
 }
 
-export function CreatePdfResponseFromJSON(json: any): CreatePdfResponse {
-    return CreatePdfResponseFromJSONTyped(json, false);
+export function PdfToolsResponseFromJSON(json: any): PdfToolsResponse {
+    return PdfToolsResponseFromJSONTyped(json, false);
 }
 
-export function CreatePdfResponseFromJSONTyped(json: any, ignoreDiscriminator: boolean): CreatePdfResponse {
+export function PdfToolsResponseFromJSONTyped(json: any, ignoreDiscriminator: boolean): PdfToolsResponse {
     if (json == null) {
         return json;
     }
@@ -73,11 +73,11 @@ export function CreatePdfResponseFromJSONTyped(json: any, ignoreDiscriminator: b
     };
 }
 
-export function CreatePdfResponseToJSON(json: any): CreatePdfResponse {
-    return CreatePdfResponseToJSONTyped(json, false);
+export function PdfToolsResponseToJSON(json: any): PdfToolsResponse {
+    return PdfToolsResponseToJSONTyped(json, false);
 }
 
-export function CreatePdfResponseToJSONTyped(value?: CreatePdfResponse | null, ignoreDiscriminator: boolean = false): any {
+export function PdfToolsResponseToJSONTyped(value?: PdfToolsResponse | null, ignoreDiscriminator: boolean = false): any {
     if (value == null) {
         return value;
     }
